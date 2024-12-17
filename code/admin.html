@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin-Bereich</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/admin">Admin-Bereich</a></li>
+    </ul>
+  </nav>
+  <div id="admin">
+    <h1>Admin-Bereich</h1>
+    <form id="teacherForm">
+      <input type="text" id="teacherName" placeholder="Lehrperson Name" required>
+      <button type="submit">Lehrperson hinzufügen</button>
+    </form>
+    <form id="deleteTeacherForm">
+      <select id="deleteTeacherName" required>
+        <!-- Optionen werden dynamisch hinzugefügt -->
+      </select>
+      <button type="submit">Lehrperson löschen</button>
+    </form>
+    <form id="sickTeacherForm">
+      <select id="sickTeacherName" required>
+        <!-- Optionen werden dynamisch hinzugefügt -->
+      </select>
+      <input type="date" id="sickEndDate" required>
+      <button type="submit">Krankmelden</button>
+    </form>
+    <button onclick="generateSchedule()">Plan erzeugen/aktualisieren</button>
+    <button onclick="createScheduleImage()">Bild vom Einsatzplan erstellen</button>
+  </div>
+  <script src="admin-scripts.js"></script>
+</body>
+</html>

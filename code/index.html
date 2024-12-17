@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Einsatzplaner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/admin">Admin-Bereich</a></li>
+    </ul>
+  </nav>
+  <div id="app">
+    <h1>Einsatzplaner für Lehrveranstaltungen</h1>
+    <p>Krankmeldung über diese Telefonnummer: <strong>+49 123 456 789</strong></p>
+    <div id="dashboard">
+      <h2>Einsatzplan</h2>
+      <table id="scheduleTable">
+        <thead>
+          <tr>
+            <th>Fach</th>
+            <th>Typ</th>
+            <th>Tag</th>
+            <th>Uhrzeit</th>
+            <th>Dozent</th>
+            <th>Standort</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Einsatzplan wird hier dynamisch hinzugefügt -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
