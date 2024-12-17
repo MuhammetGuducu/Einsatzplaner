@@ -1,0 +1,245 @@
+{
+  "Lehrpersonen": [
+    {
+      "Name": "Müller",
+      "Krankheitsstatus": false,
+      "Krankheitsende": null,
+      "Arbeitszeit": 16
+    },
+    {
+      "Name": "Becker",
+      "Krankheitsstatus": false,
+      "Krankheitsende": null,
+      "Arbeitszeit": 16
+    },
+    {
+      "Name": "Hoffmann",
+      "Krankheitsstatus": false,
+      "Krankheitsende": null,
+      "Arbeitszeit": 16,
+      "Krankheitsdauer": 0
+    },
+    {
+      "Name": "Tipp",
+      "Krankheitsstatus": false,
+      "Krankheitsende": null,
+      "Arbeitszeit": 16
+    },
+    {
+      "Name": "asd",
+      "Krankheitsstatus": true,
+      "Krankheitsdauer": 20,
+      "Krankheitsende": "2024-07-25",
+      "Arbeitszeit": 0
+    },
+    {
+      "Name": "Muhammet",
+      "Krankheitsstatus": false,
+      "Krankheitsdauer": null,
+      "Krankheitsende": null,
+      "Arbeitszeit": 16
+    }
+  ],
+  "Veranstaltungen": [
+    {
+      "Fach": "ITS",
+      "Typ": "Übung",
+      "Tag": "Montag",
+      "Uhrzeit": "08:00 - 10:00",
+      "Dozent": "Becker",
+      "Standort": "Gladbach"
+    },
+    {
+      "Fach": "SWE",
+      "Typ": "Vorlesung",
+      "Tag": "Montag",
+      "Uhrzeit": "08:00 - 10:00",
+      "Dozent": "Hoffmann",
+      "Standort": "Krefeld"
+    },
+    {
+      "Fach": "WIN",
+      "Typ": "Vorlesung",
+      "Tag": "Montag",
+      "Uhrzeit": "08:00 - 10:00",
+      "Dozent": "Tipp",
+      "Standort": "Gladbach"
+    },
+    {
+      "Fach": "MA",
+      "Typ": "Praktikum",
+      "Tag": "Montag",
+      "Uhrzeit": "12:00 - 16:00",
+      "Dozent": "Becker",
+      "Standort": "Krefeld"
+    },
+    {
+      "Fach": "DNE",
+      "Typ": "Praktikum",
+      "Tag": "Montag",
+      "Uhrzeit": "12:00 - 16:00",
+      "Dozent": "Tipp",
+      "Standort": "Gladbach"
+    },
+    {
+      "Fach": "ITS",
+      "Typ": "Vorlesung",
+      "Tag": "Dienstag",
+      "Uhrzeit": "08:00 - 10:00",
+      "Dozent": "Müller",
+      "Standort": "Gladbach"
+    },
+    {
+      "Fach": "MA",
+      "Typ": "Übung",
+      "Tag": "Dienstag",
+      "Uhrzeit": "08:00 - 10:00",
+      "Dozent": "Muhammet",
+      "Standort": "Krefeld"
+    },
+    {
+      "Fach": "SWE",
+      "Typ": "Vorlesung",
+      "Tag": "Dienstag",
+      "Uhrzeit": "08:00 - 10:00",
+      "Dozent": "Tipp",
+      "Standort": "Gladbach"
+    },
+    {
+      "Fach": "WIN",
+      "Typ": "Praktikum",
+      "Tag": "Dienstag",
+      "Uhrzeit": "08:00 - 12:00",
+      "Dozent": "Becker",
+      "Standort": "Gladbach"
+    },
+    {
+      "Fach": "DNE",
+      "Typ": "Praktikum",
+      "Tag": "Dienstag",
+      "Uhrzeit": "12:00 - 16:00",
+      "Dozent": "Müller",
+      "Standort": "Krefeld"
+    },
+    {
+      "Fach": "MA",
+      "Typ": "Übung",
+      "Tag": "Mittwoch",
+      "Uhrzeit": "08:00 - 10:00",
+      "Dozent": "Müller",
+      "Standort": "Krefeld"
+    },
+    {
+      "Fach": "SWE",
+      "Typ": "Übung",
+      "Tag": "Mittwoch",
+      "Uhrzeit": "08:00 - 10:00",
+      "Dozent": "Tipp",
+      "Standort": "Krefeld"
+    },
+    {
+      "Fach": "ITS",
+      "Typ": "Praktikum",
+      "Tag": "Mittwoch",
+      "Uhrzeit": "08:00 - 12:00",
+      "Dozent": "Hoffmann",
+      "Standort": "Krefeld"
+    },
+    {
+      "Fach": "WIN",
+      "Typ": "Vorlesung",
+      "Tag": "Mittwoch",
+      "Uhrzeit": "12:00 - 14:00",
+      "Dozent": "Tipp",
+      "Standort": "Gladbach"
+    },
+    {
+      "Fach": "DNE",
+      "Typ": "Vorlesung",
+      "Tag": "Mittwoch",
+      "Uhrzeit": "16:00 - 18:00",
+      "Dozent": "Tipp",
+      "Standort": "Gladbach"
+    },
+    {
+      "Fach": "ITS",
+      "Typ": "Übung",
+      "Tag": "Donnerstag",
+      "Uhrzeit": "08:00 - 10:00",
+      "Dozent": "Hoffmann",
+      "Standort": "Gladbach"
+    },
+    {
+      "Fach": "SWE",
+      "Typ": "Übung",
+      "Tag": "Donnerstag",
+      "Uhrzeit": "08:00 - 10:00",
+      "Dozent": "Muhammet",
+      "Standort": "Gladbach"
+    },
+    {
+      "Fach": "MA",
+      "Typ": "Praktikum",
+      "Tag": "Donnerstag",
+      "Uhrzeit": "08:00 - 12:00",
+      "Dozent": "Müller",
+      "Standort": "Gladbach"
+    },
+    {
+      "Fach": "WIN",
+      "Typ": "Praktikum",
+      "Tag": "Donnerstag",
+      "Uhrzeit": "12:00 - 16:00",
+      "Dozent": "Muhammet",
+      "Standort": "Gladbach"
+    },
+    {
+      "Fach": "DNE",
+      "Typ": "Praktikum",
+      "Tag": "Donnerstag",
+      "Uhrzeit": "18:00 - 22:00",
+      "Dozent": "Muhammet",
+      "Standort": "Krefeld"
+    },
+    {
+      "Fach": "WIN",
+      "Typ": "Vorlesung",
+      "Tag": "Freitag",
+      "Uhrzeit": "08:00 - 10:00",
+      "Dozent": "Muhammet",
+      "Standort": "Krefeld"
+    },
+    {
+      "Fach": "DNE",
+      "Typ": "Vorlesung",
+      "Tag": "Freitag",
+      "Uhrzeit": "08:00 - 10:00",
+      "Dozent": "Müller",
+      "Standort": "Gladbach"
+    },
+    {
+      "Fach": "ITS",
+      "Typ": "Praktikum",
+      "Tag": "Freitag",
+      "Uhrzeit": "08:00 - 12:00",
+      "Dozent": "Hoffmann",
+      "Standort": "Krefeld"
+    },
+    {
+      "Fach": "SWE",
+      "Typ": "Praktikum",
+      "Tag": "Freitag",
+      "Uhrzeit": "08:00 - 12:00",
+      "Dozent": "Becker",
+      "Standort": "Krefeld"
+    },
+    {
+      "Fach": "MA",
+      "Typ": "Praktikum",
+      "Tag": "Freitag",
+      "Uhrzeit": "14:00 - 18:00",
+      "Dozent": "Hoffmann",
+      "Standort": "Krefeld"
+    }
+  ]
+}
